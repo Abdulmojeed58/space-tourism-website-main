@@ -1,0 +1,129 @@
+.crew-container {
+    background: url(./assets/crew/background-crew-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+section {
+    /* background-color: green; */
+    gap: 10%;
+    align-items: flex-end;
+    margin-top: 20px;
+    height: 80vh;
+}
+.content.content {
+    /* background-color: blue; */
+    width: 450px;
+    margin-bottom: 20px;
+}
+.content h3 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+.place {
+    margin-top: 100px;
+}
+.place h2 {
+    text-transform: uppercase;
+    color: rgba(255 255 255 / .3);
+    font-weight: 300;
+    font-size: 1.4rem;
+}
+.place h1 {
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    font-weight: 300px;
+    /* background-color: red; */
+    margin: 10px 0 25px 0;
+    letter-spacing: 6px;
+}
+.place.place p {
+    font-size: .9rem;
+    width: 400px;
+    /* background-color: yellow; */
+    /* letter-spacing: 1px; */
+    /* margin-bottom: 30px; */
+    color: var(--off-white);
+}
+.buttons {
+    margin-top: 50px;
+    cursor: pointer;
+}
+.buttons button{
+    width: 8px;
+    aspect-ratio: 1;
+    background-color: rgba(255 255 255 / .3);
+    margin-right: 5px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.buttons .white {   
+    background-color: white;
+}
+
+
+
+.crew-image img {
+    width: 300px;
+}
+
+@media(max-width: 1050px) {
+    body {
+        /* border: 5px solid green; */
+    }
+    .crew-container {
+        background: url(./assets/crew/background-crew-tablet.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        font-family: 'Roboto Condensed', sans-serif;
+        /* margin: 0; */
+    }
+    section {
+        /* background-color: black; */
+        gap: 90px;
+        align-items: center;
+        margin-top: 50px;
+        height: auto;
+    }
+    .place {
+        text-align: left;
+    }
+    .place.place p {
+        text-align: justify;
+        /* background-color: red; */
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.2rem;
+        width: auto;
+        max-width: 450px;
+        line-height: 2rem;
+    }
+    .buttons button {
+        margin-right: 8px;
+        width: 10px;
+    aspect-ratio: 1;
+    }
+    .crew-image {
+        /* background-color: red; */
+    }
+    .crew-image img {
+        width: 300px;
+    }
+    
+}
+@media(max-width: 750px) {
+    .des-container {
+        background: url(./assets/crew/background-crew-mobile.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: auto;
+    }
+    
+}
