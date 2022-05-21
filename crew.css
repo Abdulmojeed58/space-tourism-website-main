@@ -73,9 +73,6 @@ section {
 }
 
 @media(max-width: 1050px) {
-    body {
-        /* border: 5px solid green; */
-    }
     .crew-container {
         background: url(./assets/crew/background-crew-tablet.jpg);
         background-repeat: no-repeat;
@@ -85,9 +82,9 @@ section {
         /* margin: 0; */
     }
     section {
-        /* background-color: black; */
         gap: 90px;
         align-items: center;
+        justify-content: center;
         margin-top: 50px;
         height: auto;
     }
@@ -105,12 +102,9 @@ section {
         line-height: 2rem;
     }
     .buttons button {
-        margin-right: 8px;
-        width: 10px;
+        margin-right: 12px;
+        width: 20px;
     aspect-ratio: 1;
-    }
-    .crew-image {
-        /* background-color: red; */
     }
     .crew-image img {
         width: 300px;
@@ -124,6 +118,14 @@ section {
         background-position: center;
         background-size: cover;
         height: auto;
+    }
+    article {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content {
+        width: 400px;
     }
     
 }

@@ -4,9 +4,8 @@ const section = document.querySelector('section')
 
 
 section.addEventListener("click", (e)=>{
-    if(e.target.className==="link-btn") {
+    if(e.target.classList.contains("link-btn")) {
     let id = e.target.dataset.id
-    // id.className += ' white'
       fetchData(id)
     }
   })
@@ -28,10 +27,10 @@ section.addEventListener("click", (e)=>{
           <div class="place">
             <h2>${des.role}</h2>
             <h1>${des.name}</h1>
-            <p class="content">${des.bio}</p>
+            <p>${des.bio}</p>
             <div class="buttons">
             
-              <button data-id="Douglas Hurley" class="link-btn"></button>
+              <button data-id="Douglas Hurley" class="link-btn white"></button>
               <button data-id="Mark Shuttleworth" class="link-btn"></button>
               <button data-id="Victor Glover" class="link-btn"></button>
               <button data-id="Anousheh Ansari" class="link-btn"></button>
