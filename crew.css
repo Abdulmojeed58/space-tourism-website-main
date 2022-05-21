@@ -13,11 +13,10 @@ section {
     height: 80vh;
 }
 .content.content {
-    /* background-color: blue; */
     width: 450px;
     margin-bottom: 20px;
 }
-.content h3 {
+article h3 {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 1.2rem;
@@ -123,9 +122,10 @@ section {
         width: 400px;
         margin-left: auto;
         margin-right: auto;
+        /* background-color: red; */
     }
-    .content {
-        width: 400px;
+    .content.content {
+        width: max-content;
     }
     
 }
