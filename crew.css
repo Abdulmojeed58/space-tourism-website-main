@@ -125,9 +125,15 @@ article h3 {
     .content.content {
         width: max-content;
     }
+    .place.place {
+        width: 100vw;
+    }
     .place.place p {
         width: auto;
         max-width: 90vw;
+        letter-spacing: 1px;
+    }
+    .place h1 {
         letter-spacing: 1px;
     }
     
