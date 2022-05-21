@@ -1,0 +1,124 @@
+.tech-container {
+    background: url(./assets/technology/background-technology-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+section {
+    margin-top: 0;
+    /* background-color: green; */
+    align-items: center;
+}
+.place {
+    /* background-color: green; */
+}
+.place h2 {
+    margin-top: 0;
+}
+article {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: max-content;
+    /* background-color: red; */
+}
+.content h3 {
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    
+}
+.place h2 {
+    text-transform: uppercase;
+    color: var(--off-white);
+    font-weight: 300;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    /* background-color: red; */
+}
+.place {
+    margin-top: 0;
+}
+.buttons-btn {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+button {
+    width: 60px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 1px solid white;
+    outline: none;
+    background-color: transparent;
+    font-size: 1rem;
+    color: white;
+}
+button:hover {
+    background-color: white;
+    color: black;
+}
+.tech-image {
+    align-self: flex-end;
+}
+.tech-image > img {
+    width: 400px;
+}
+
+
+
+
+@media(max-width: 1050px) {
+    .tech-container {
+        background: url(./assets/technology/background-technology-tablet.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .tech-image {
+        align-self: auto;
+    }
+    section {
+        margin-top: 50px;
+    }
+    .content h3 {
+        margin-bottom: 40px;
+    }
+    article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    /* background-color: red; */
+    }
+    .buttons-btn {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin-bottom: 50px;
+        /* justify-content: space-between; */
+    
+    }
+    
+
+
+}
+
+
+
+@media(max-width: 750px) {
+    .tech-container {
+        background: url(./assets/technology/background-technology-mobile.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+}

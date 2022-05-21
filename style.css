@@ -249,13 +249,12 @@ section p {
         border-radius: 5px;
         transition: all .2s;
         background-color: rgba(255 255 255 / .04);
-        /* background-color: ; */
+        backdrop-filter: blur(30px);
     }
     ul {
         display: block;
         font-size: 1.5rem;
         padding-left: 30px;
-        /* background-color: blue; */
         padding: 0;
         
         /* z-index: 30px; */
